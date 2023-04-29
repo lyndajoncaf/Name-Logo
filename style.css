@@ -1,0 +1,24 @@
+.logo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    background-color: #3A6B56;
+    color: white;
+    max-width: 300px;
+}
+
+#name {
+    grid-column: 1 / -1;
+    grid-row: 1 / 1;
+    font-size: 32px;
+    z-index: 5;
+}
+
+#studio {
+    grid-column: 2 / 3;
+    grid-row: 1;
+    font-size: 46px;
+    z-index: 2;
+    opacity: .25;
+    letter-spacing: 2px;
+}
